@@ -19,3 +19,8 @@ else:
         print("not present")
     else:
         print(j)
+
+        
+#OUTPUT
+>[6,6,5,6,6]
+5
