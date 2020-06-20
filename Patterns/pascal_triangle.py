@@ -4,9 +4,7 @@ while n:
     new_list = []
     list_now = list_pascle.pop(-1)
     for i in range(len(list_now)+1):
-        if i==0:
-            new_list.append(1)
-        elif i==len(list_now):
+        if i==0 or  i==len(list_now):
             new_list.append(1)
         else:
             new_list.append(list_now[i]+list_now[i-1])
